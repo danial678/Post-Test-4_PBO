@@ -57,9 +57,9 @@ Jika user memilih keluar, program berhenti dijalankan.
   <img width="744" height="140" alt="image" src="https://github.com/user-attachments/assets/93887265-7877-444b-809e-976a67df22d9" />
 
   
-- Interface `TampilkanKategori.java` mendefinisikan method `tampilkanKategori()` yang digunakan untuk menampilkan kategori mainan pada setiap subclass MainanKoleksi.</pre>
+- Interface `TampilkanKategori.java` mendefinisikan method `tampilkanKategori()` yang digunakan untuk menampilkan kategori mainan pada setiap subclass MainanKoleksi.
 
-  <img width="558" height="213" alt="image" src="https://github.com/user-attachments/assets/5e80010c-c305-450a-b6d5-7edbdd7955e1" />
+  <img width="558" height="213" alt="image" src="https://github.com/user-attachments/assets/5e80010c-c305-450a-b6d5-7edbdd7955e1" /> </pre>
 
 
 ## Penerapan Polymorphism
@@ -67,7 +67,7 @@ Program menerapkan polymorphism dalam dua bentuk: overriding dan overloading.
 
 <pre> - **Overriding:** Method `tampilkanInfo()` di `Mainan` di-override oleh `MainanKoleksi`, kemudian di-override lagi oleh `ActionFigure` dan `DiecastMobil` untuk menampilkan informasi tambahan sesuai jenis mainan (karakter atau skala).  
 
-- **Overloading:** Method `tambahMainan()` di `MainanService` memiliki dua versi, yaitu `tambahMainan(Mainan mainan)` dan `tambahMainan(Mainan mainan, boolean cetakInfo)`. Versi kedua menambahkan opsi untuk langsung menampilkan info mainan saat menambah data.</pre>
+- **Overloading:** Method `tambahMainan()` di `MainanService` memiliki dua versi, yaitu `tambahMainan(Mainan mainan)` dan `tambahMainan(Mainan mainan, boolean cetakInfo)`. Versi kedua menambahkan opsi untuk langsung menampilkan info mainan saat menambah data.
 
 
-  <img width="1067" height="680" alt="image" src="https://github.com/user-attachments/assets/df7a5cbc-05dc-4f66-ba83-ab6435dff36d" />
+  <img width="1067" height="680" alt="image" src="https://github.com/user-attachments/assets/df7a5cbc-05dc-4f66-ba83-ab6435dff36d" /> </pre>
